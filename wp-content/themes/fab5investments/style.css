@@ -1,0 +1,35 @@
+/*
+Theme Name: Fab5Investments
+Theme URI: https://github.com/bzastrow232
+Author: BZastrow232
+Version: 1.0.0
+Author URI: https://fabfiveinvestments.com
+Description: The basic bootstrap blog is dynamic, flexible, & can be very useful for online marketers
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: Fab5Investments
+*/
+
+/* Navabar */
+.navbar-brand img {
+	height: 75px;
+	width: 350px;
+}
+.navbar-nav li { padding: 10px; }
+.navbar-nav li a { color: #02205f; font-weight: bold; }
+.navbar-nav li a:hover { color: #02205f; text-decoration: none; }
+
+/* Footer */
+footer { text-align: center; color: #02205f; font-weight: bold;}
+footer a { color: #00a4e5; }
+footer a:hover {  text-decoration: none; }
+
+/* Thumbnail Post */
+.post-thumb img { width: 100%; height: auto; }
+
+/* Excerpt */
+.excerpt, .excerpt:hover { color: #111111; }
+.excerpt:hover { text-decoration: none; }
+
+/* Mobile */
+@media only screen and (max-width: 378px){ .navbar-brand img { width: 100%; height: auto; } }
